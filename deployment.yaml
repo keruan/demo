@@ -12,9 +12,9 @@ spec:
     spec:
       containers:
       - name: demo
-        image: 10.3.10.131:5000/gsafety/demo:v3
+        image: 192.168.4.130/test/demo:v3
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
 ---
 apiVersion: v1
