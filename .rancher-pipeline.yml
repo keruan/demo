@@ -10,6 +10,7 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: gsafety/demo:v3
+      pushRemote: true
       registry: 10.3.10.131:5000
     env:
       PLUGIN_DEBUG: "true"
